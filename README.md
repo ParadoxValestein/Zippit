@@ -1,8 +1,12 @@
 # Backup Zip Script
 
+Zippit is a zip‑file compression script, made to quickly back up any folder without having to hunt it down manually.
+I made this because constantly having to zip my project folder myself was a pain in the bumm :)
+
 This script will compress your file/folder into a zip file using Windows PowerShell’s `Compress-Archive`, and uses the highest “Optimal” deflate setting.  
 PowerShell uses .NET’s `System.IO.Compression` with deflate-level 9 by default.
 
+No additional programs are needed, as this uses PowerShell, which comes with Windows.
 ---
 
 ## Supports
