@@ -7,6 +7,7 @@ This script will compress your file/folder into a zip file using Windows PowerSh
 PowerShell uses .NET’s `System.IO.Compression` with deflate-level 9 by default.
 
 No additional programs are needed, as this uses PowerShell, which comes with Windows.
+
 ---
 
 ## Supports
